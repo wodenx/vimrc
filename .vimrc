@@ -13,6 +13,12 @@ set number
 
 " highlight Pmenu ctermfg=201 ctermbg=238 
 
+" CtrlP Settings
+" Start in regexp mode
+let g:ctrlp_regexp = 1
+" Space inserts a wildcard
+let g:ctrlp_prompt_mappings = { 'PrtAdd(".*")': ['<space>'] }
+
 " Vim-Go Settings
 autocmd Filetype go setlocal ts=4 sw=4 sts=0 noexpandtab
 let g:go_highlight_functions = 1
