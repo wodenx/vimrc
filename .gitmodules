@@ -13,3 +13,9 @@
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git@github.com:/majutsushi/tagbar
+[submodule "bundle/ZoomWin"]
+	path = bundle/ZoomWin
+	url = git@github.com:/vim-scripts/ZoomWin
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic
