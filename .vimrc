@@ -68,3 +68,8 @@ let g:tagbar_type_go = {
 "set runtimepath^=~/.vim/bundle/ctrlp.vim
 "set number
 "
+let g:syntastic_auto_loc_list = 1
+" App Engine is an Asshole.
+if has("autocmd")
+    autocmd BufRead,BufNewFile *.appengine.go let g:syntastic_go_go_exec="goapp"
+endif
