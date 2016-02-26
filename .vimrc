@@ -3,7 +3,7 @@ set mouse=a
 syntax on
 set ttymouse=xterm2
 filetype plugin indent on
-imap jj <esc>
+imap kk <esc>
 set shell=bash\ -l
 cmap w!! w !sudo tee >/dev/null %
 nnoremap <leader>d :NERDTreeToggle<enter>
